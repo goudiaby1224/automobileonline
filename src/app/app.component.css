@@ -1,0 +1,38 @@
+.container{
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.main{
+background-color: yellow;
+}
+
+.header{
+  //background-color: #89fcff;
+  height: 15vh;
+}
+
+.menu{
+ background-color: ;
+  height: 5vh;
+}
+
+.body{
+ background-color: pink;
+  height: 100%;
+}
+
+.footer{
+ background-color: purple;
+  height: 20vh;
+
+}
+
+ .header .logo{
+  height:15vh;
+}
+
+.header .banner {
+  //background-color: #ff8989;
+  height: 15vh;
+}
