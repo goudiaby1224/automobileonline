@@ -12,12 +12,12 @@ import {ImageServices} from "./images/images.services";
 import {Routes, RouterModule} from "@angular/router";
 import {VoituresComponent} from "./body/voitures/voitures.component";
 import {PiecesComponent} from "./body/pieces/pieces.component";
-import {AcceuilComponent} from "./acceuil/acceuil.component";
+import {AcceuilComponent} from "./body/acceuil/acceuil.component";
 import {VoituresServices} from "./body/voitures/voitures.services";
 import {VoitureComponent} from "./body/voitures/voiture/voiture.component";
 
 const appRoutes : Routes = [
-  {path: "" , component : AcceuilComponent},
+  {path: " " , component : AcceuilComponent},
   {path : "voitures",component : VoituresComponent},
   {path : "voitures/:id",component : VoitureComponent},
   {path : "pieces",component : PiecesComponent}

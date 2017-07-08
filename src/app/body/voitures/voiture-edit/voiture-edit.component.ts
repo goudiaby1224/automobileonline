@@ -1,4 +1,4 @@
-import {OnInit} from "@angular/core";
+import {OnInit, Component} from "@angular/core";
 import {VoituresServices} from "../voitures.services";
 import {ActivatedRoute} from "@angular/router";
 
@@ -17,12 +17,12 @@ export class VoitureEditComponent implements OnInit{
   }
 
 
-  contructor(){
+  constructor(private voitureservices : VoituresServices, private activatedRoute : ActivatedRoute){
 
   }
 
 
-  ngOnInit(private voitureservices : VoituresServices, private activatedRoute : ActivatedRoute){
+  ngOnInit(){
 
   }
 
