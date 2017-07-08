@@ -1,0 +1,47 @@
+.container{
+  margin-top: 10px;
+  /*background-color: transparent;*/
+}
+
+.main{
+background-color: yellow;
+}
+
+.header{
+  position: static;
+  width: 100%;
+  margin-top:20px;
+ height: auto;
+}
+
+
+
+.body{
+ /*background-color: darkred;*/
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+}
+
+/*#footer p {
+  position: relative;
+  padding-top: 15px;
+}*/
+
+
+
+
+/*.banner {
+ /* background-color: #ff8989;
+ height: 15px;
+  width: 70vw;
+  position: relative;
+}*/
