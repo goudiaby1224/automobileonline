@@ -1,20 +1,19 @@
 <div class="container">
-  <div  class="header">
-  <app-header></app-header>
+  <div class="header">
+    <app-header></app-header>
   </div>
-    <div class="menu">
+  <div class="menu">
     <app-menu></app-menu>
-    </div>
+  </div>
   <div class="body">
     <div>
+      <app-body></app-body>
       <div>
         <router-outlet></router-outlet>
+      </div>
     </div>
-     <!--<app-acceuil [datasource]=images>
-      </app-acceuil>-->
-  </div>
   </div>
   <div class="footer">
-   <span>Pied de page</span>
+    <span>Pied de page</span>
   </div>
 </div>

@@ -11,13 +11,13 @@ import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from "./menu/menu.component";
 import {BodyComponent} from "./body/body.component";
 import {FooterComponent} from "./footer/footer.component";
-import {AcceuilComponent} from "./acceuil/acceuil.component";
 import {VoituresServices} from "./body/voitures/voitures.services";
 import { PiecesOccasionsComponent } from "./body/pieces/piecesOccasions/piecesOccasions.component";
 import { PiecesNeuvesComponent } from "./body/pieces/piecesNeuves/piecesNeuves.component";
 import {VoituresOccasionsComponent} from "./body/voitures/voituresOccasions/voituresOccasions.component";
 import {VoituresNeuvesComponent} from "./body/voitures/voituresNeuves/voituresNeuves.component";
 import {ServiceMarque} from "./body/marqueService/serviceMarque";
+import {AcceuilComponent} from "./body/acceuil/acceuil.component";
 
 
 const appRoutes : Routes = [
