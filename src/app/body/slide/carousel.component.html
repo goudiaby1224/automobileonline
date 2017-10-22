@@ -1,0 +1,27 @@
+
+<div id="image">
+<carousel>
+
+  <slide *ngFor="let imageVoiture of tab; let index=index">
+    <img src="{{imageVoiture}}" class="tn" alt="noel"
+         data-toggle="modal" data-target="#selectedImageModal">
+  </slide>
+
+</carousel>
+  </div>
+<div id="detail">
+
+
+</div>
+<!--
+<div>
+  <ul id="thumbnailsList">
+    <li *ngFor="let marque of marques" >
+      <img src="{{marque.url}}" class="tn" alt="noel"
+           width="191" height="146"
+           data-toggle="modal" data-target="#selectedImageModal"
+           (click)=setSelectedImage(marque.title)>
+    </li>
+  </ul>
+</div>
+-->

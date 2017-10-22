@@ -1,0 +1,12 @@
+<h1>Voiture Neuves</h1>
+<div>
+  <ul id="thumbnailsList">
+    <li *ngFor="let voiture of voitures" >
+      <img src="{{voiture.img}}" class="tn" alt="noel"
+           width="191" height="146"
+           data-toggle="modal" data-target="#selectedImageModal"
+         (click)="selectedImage(voiture.id)" >
+
+    </li>
+  </ul>
+</div>

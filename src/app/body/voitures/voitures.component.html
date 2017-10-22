@@ -1,0 +1,26 @@
+<div class="container">
+  <div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="list-group">
+        <a
+          [routerLink]="['/voitures',voiture.id]"
+          fragment="loading"
+          href="#"
+          class="list-group-item"
+          *ngFor="let voiture of  voitures" >
+          {{ voiture.marque }}
+          <img
+            [src]="voiture.img"
+            alt="{{ voiture.marque }}"
+            class="img-responsive"
+            style="max-height: 100%; width: 100%">
+        </a>
+
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <router-outlet> </router-outlet>
+    </div>
+  </div>
+</div>
+

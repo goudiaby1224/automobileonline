@@ -1,0 +1,39 @@
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse navbar-ex2-collapse">
+      <ul class="nav navbar-nav">
+        <li  routerLinkActive="active" ><a routerLink=''>Accueil</a></li>
+        <li class="dropdown" >
+          <a class="dropdown-toggle" data-toggle="dropdown">Pieces</a>
+          <ul  class="dropdown-menu dropdown-menu-inverse" >
+
+            <li routerLinkActive="active">
+              <nav class="navbar-inverse" role="navigation">
+                <a routerLink="piecesOccasions">Occasions</a>
+              </nav>
+            </li>
+
+            <li routerLinkActive="active">
+              <nav class="navbar-inverse" role="navigation">
+                <a routerLink="piecesNeuves">Neuves</a>
+              </nav>
+            </li>
+
+
+          </ul>
+        </li>
+        <li  class="dropdown" routerLinkActive="active">
+          <a class="dropdown-toggle" data-toggle="dropdown">Voitures</a>
+          <ul  class="dropdown-menu dropdown-menu-inverse">
+            <li >
+              <a  routerLink="voituresOccasions">Occasions</a>
+            </li>
+            <li >
+              <a routerLink="voituresNeuves">Neuves</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

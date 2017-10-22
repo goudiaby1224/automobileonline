@@ -1,0 +1,17 @@
+<!--<h1>Je suis la page d'acceuil!</h1>
+<demo-carousel-basic></demo-carousel-basic>-->
+<div class="col-md-7">
+  <router-outlet>
+    <div>
+      <ul id="thumbnailsList">
+        <li *ngFor="let marque of marques" >
+          <img src="{{marque.url}}" class="tn" alt="noel"
+               width="191" height="146"
+               data-toggle="modal" data-target="#selectedImageModal"
+               (click)=setSelectedImage(marque.title)>
+        </li>
+      </ul>
+    </div>
+  </router-outlet>
+</div>
+
